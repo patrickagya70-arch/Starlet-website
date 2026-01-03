@@ -3,66 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Starlet Company</title>
+    <title>STARLET</title>
     <style>
+        /* Body & Font */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #0B1F3B; /* Dark Blue */
-            color: #FFFFFF;
+            background-color: #0b0c2a; /* Dark Background */
+            color: #ffffff;
         }
-        a { color: #FFD700; text-decoration: none; }
+
+        /* Links */
+        a {
+            color: #ffd700; /* Yellow highlight */
+            text-decoration: none;
+        }
+
+        /* Header */
         header {
             text-align: center;
             padding: 50px 20px;
+            background: linear-gradient(to bottom, #0b0c2a, #1e90ff10); /* Subtle gradient */
         }
         header h1 {
-            color: #00CFFF; /* Highlight Blue */
-            font-size: 2.5rem;
+            color: #1e90ff; /* Blue main color */
+            font-size: 3rem;
+            margin-bottom: 10px;
         }
-        header p {
-            font-size: 1.1rem;
-            margin-top: 10px;
+        header h3 {
+            font-size: 1.5rem;
+            margin-top: 0;
         }
+
+        /* Sections */
         section {
             padding: 50px 20px;
         }
         .section-title {
             font-size: 2rem;
-            color: #FFD700; /* Yellow highlight */
+            color: #ffd700; /* Yellow highlight */
             text-align: center;
             margin-bottom: 30px;
         }
+
+        /* Services & Testimonials */
         .services, .testimonials {
             display: flex;
             flex-direction: column;
             gap: 20px;
+            max-width: 900px;
+            margin: auto;
         }
         .service-item, .testimonial-item {
-            background-color: #142B4D;
+            background-color: #142b4d; /* Slightly lighter blue */
             padding: 20px;
             border-radius: 10px;
         }
+
+        /* CTA */
         .cta {
             text-align: center;
             margin: 50px 0;
         }
         .cta a {
-            background-color: #FFD700;
-            color: #0B1F3B;
+            background-color: #ffd700; /* Yellow */
+            color: #0b0c2a; /* Dark text */
             padding: 15px 30px;
             border-radius: 50px;
             font-weight: bold;
+            font-size: 1rem;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #081030;
+            font-size: 12px;
         }
     </style>
 </head>
 <body>
 
-    <!-- Hero Section -->
+    <!-- Header -->
     <header>
-        <h1>Innovate Faster, Grow Smarter</h1>
-        <p>At Starlet, we empower young minds to build the future. From cutting-edge software solutions to innovative electronics and automotive projects, we bring ideas to life.</p>
+        <h1>STARLET</h1>
+        <h3>Where bright minds connect to build the future</h3>
+        <p>Empowering young African innovators through software, electronics, and automotive solutions.</p>
     </header>
 
     <!-- Services Section -->
@@ -86,7 +114,7 @@
 
     <!-- About Section -->
     <section>
-        <h2 class="section-title">Why Choose Starlet?</h2>
+        <h2 class="section-title">About STARLET</h2>
         <p>Starlet is more than a company – it’s a community of problem-solvers. We bring together young skilled minds to tackle challenges and create solutions for Ghana, Africa, and the world.</p>
     </section>
 
@@ -95,15 +123,15 @@
         <h2 class="section-title">Testimonials</h2>
         <div class="testimonials">
             <div class="testimonial-item">
-                <p>“Starlet’s software solutions transformed our workflow.”</p>
+                <p>“STARLET helped me understand the potential of tech in Africa.”</p>
                 <p><strong>- Amuasi M. Daniel</strong></p>
             </div>
             <div class="testimonial-item">
-                <p>“The team is innovative and always delivers on time.”</p>
+                <p>“Joining STARLET was the best decision for my tech growth.”</p>
                 <p><strong>- Nyewoayor E. Erica</strong></p>
             </div>
             <div class="testimonial-item">
-                <p>“Starlet brings fresh ideas to electronics and automotive projects.”</p>
+                <p>“A place where young minds are truly empowered to solve real problems.”</p>
                 <p><strong>- Nikoi A. Dorcas</strong></p>
             </div>
         </div>
@@ -111,9 +139,14 @@
 
     <!-- Call-to-Action Section -->
     <section class="cta">
-        <p>Ready to innovate with Starlet? Contact us today!</p>
+        <p>Ready to innovate with STARLET? Contact us today!</p>
         <a href="mailto:Patrickagya70@gmail.com">Contact Us</a>
     </section>
+
+    <!-- Footer -->
+    <footer>
+        STARLET © 2026 — Bright minds building the future
+    </footer>
 
 </body>
 </html>
