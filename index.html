@@ -1,35 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>STARLET</title>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starlet Company</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0B1F3B; /* Dark Blue */
+            color: #FFFFFF;
+        }
+        a { color: #FFD700; text-decoration: none; }
+        header {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        header h1 {
+            color: #00CFFF; /* Highlight Blue */
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.1rem;
+            margin-top: 10px;
+        }
+        section {
+            padding: 50px 20px;
+        }
+        .section-title {
+            font-size: 2rem;
+            color: #FFD700; /* Yellow highlight */
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .services, .testimonials {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .service-item, .testimonial-item {
+            background-color: #142B4D;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .cta {
+            text-align: center;
+            margin: 50px 0;
+        }
+        .cta a {
+            background-color: #FFD700;
+            color: #0B1F3B;
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-weight: bold;
+        }
+    </style>
 </head>
-<body style="font-family: Arial; background-color: #0a1a2f; color: white; padding: 20px;">
+<body>
 
-  <h1 style="color: #ffd700;">STARLET</h1>
-  <h3>Where bright minds connect to build the future</h3>
+    <!-- Hero Section -->
+    <header>
+        <h1>Innovate Faster, Grow Smarter</h1>
+        <p>At Starlet, we empower young minds to build the future. From cutting-edge software solutions to innovative electronics and automotive projects, we bring ideas to life.</p>
+    </header>
 
-  <p>
-    STARLET is a youth-led tech initiative founded by Amekortu Innocent Desmond.
-    Our goal is to empower young African minds to solve real-world problems using technology.
-  </p>
+    <!-- Services Section -->
+    <section>
+        <h2 class="section-title">Our Services</h2>
+        <div class="services">
+            <div class="service-item">
+                <h3>Software Development</h3>
+                <p>We create custom software solutions designed for efficiency and speed. From web apps to mobile apps, our products help businesses and individuals achieve their goals faster.</p>
+            </div>
+            <div class="service-item">
+                <h3>Electronics</h3>
+                <p>Our electronics projects focus on innovation and real-world applications. From small gadgets to smart devices, we aim to solve everyday problems through technology.</p>
+            </div>
+            <div class="service-item">
+                <h3>Automobiles</h3>
+                <p>Starlet explores automotive technology to improve mobility and efficiency. From smart sensors to electric vehicle components, we work to innovate the driving experience.</p>
+            </div>
+        </div>
+    </section>
 
-  <h2 style="color: #ffd700;">What We Do</h2>
-  <ul>
-    <li>Software & Website Development</li>
-    <li>Mobile Application Prototyping</li>
-    <li>Technology Learning & Innovation</li>
-  </ul>
+    <!-- About Section -->
+    <section>
+        <h2 class="section-title">Why Choose Starlet?</h2>
+        <p>Starlet is more than a company – it’s a community of problem-solvers. We bring together young skilled minds to tackle challenges and create solutions for Ghana, Africa, and the world.</p>
+    </section>
 
-  <h2 style="color: #ffd700;">Status</h2>
-  <p>
-    We are currently learning, building, and preparing our first mobile and web projects.
-    Follow our journey as we grow step by step.
-  </p>
+    <!-- Testimonials Section -->
+    <section>
+        <h2 class="section-title">Testimonials</h2>
+        <div class="testimonials">
+            <div class="testimonial-item">
+                <p>“Starlet’s software solutions transformed our workflow.”</p>
+                <p><strong>- Amuasi M. Daniel</strong></p>
+            </div>
+            <div class="testimonial-item">
+                <p>“The team is innovative and always delivers on time.”</p>
+                <p><strong>- Nyewoayor E. Erica</strong></p>
+            </div>
+            <div class="testimonial-item">
+                <p>“Starlet brings fresh ideas to electronics and automotive projects.”</p>
+                <p><strong>- Nikoi A. Dorcas</strong></p>
+            </div>
+        </div>
+    </section>
 
-  <p style="margin-top: 40px; font-size: 12px;">
-    © 2026 STARLET | Built with GitHub Pages
-  </p>
+    <!-- Call-to-Action Section -->
+    <section class="cta">
+        <p>Ready to innovate with Starlet? Contact us today!</p>
+        <a href="mailto:Patrickagya70@gmail.com">Contact Us</a>
+    </section>
 
 </body>
 </html>
