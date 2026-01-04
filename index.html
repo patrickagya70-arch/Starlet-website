@@ -1,153 +1,127 @@
-<img src="images/logo.png" alt="STARLET Logo" style="width:120px; height:auto; display:block; margin:0 auto 20px auto;">
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>STARLET</title>
-    <style>
-        /* Body & Font */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #0b0c2a; /* Dark Background */
-            color: #ffffff;
-        }
-
-        /* Links */
-        a {
-            color: #ffd700; /* Yellow highlight */
-            text-decoration: none;
-        }
-
-        /* Header */
-        header {
-            text-align: center;
-            padding: 50px 20px;
-            background: linear-gradient(to bottom, #0b0c2a, #1e90ff10); /* Subtle gradient */
-        }
-        header h1 {
-            color: #1e90ff; /* Blue main color */
-            font-size: 3rem;
-            margin-bottom: 10px;
-        }
-        header h3 {
-            font-size: 1.5rem;
-            margin-top: 0;
-        }
-
-        /* Sections */
-        section {
-            padding: 50px 20px;
-        }
-        .section-title {
-            font-size: 2rem;
-            color: #ffd700; /* Yellow highlight */
-            text-align: center;
-            margin-bottom: 30px;
-        }
-
-        /* Services & Testimonials */
-        .services, .testimonials {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            max-width: 900px;
-            margin: auto;
-        }
-        .service-item, .testimonial-item {
-            background-color: #142b4d; /* Slightly lighter blue */
-            padding: 20px;
-            border-radius: 10px;
-        }
-
-        /* CTA */
-        .cta {
-            text-align: center;
-            margin: 50px 0;
-        }
-        .cta a {
-            background-color: #ffd700; /* Yellow */
-            color: #0b0c2a; /* Dark text */
-            padding: 15px 30px;
-            border-radius: 50px;
-            font-weight: bold;
-            font-size: 1rem;
-        }
-
-        /* Footer */
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #081030;
-            font-size: 12px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Starlet</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Header -->
-    <header>
-        <h1>STARLET</h1>
-        <h3>Where bright minds connect to build the future</h3>
-        <p>Empowering young African innovators through software, electronics, and automotive solutions.</p>
-    </header>
+  <!-- HEADER -->
+  <header class="header">
+    <img src="images/logo.png" alt="Starlet Logo" class="logo">
+    <h1>STARLET</h1>
+    <p class="tagline">Where bright minds connect to build the future</p>
+  </header>
 
-    <!-- Services Section -->
-    <section>
-        <h2 class="section-title">Our Services</h2>
-        <div class="services">
-            <div class="service-item">
-                <h3>Software Development</h3>
-                <p>We create custom software solutions designed for efficiency and speed. From web apps to mobile apps, our products help businesses and individuals achieve their goals faster.</p>
-            </div>
-            <div class="service-item">
-                <h3>Electronics</h3>
-                <p>Our electronics projects focus on innovation and real-world applications. From small gadgets to smart devices, we aim to solve everyday problems through technology.</p>
-            </div>
-            <div class="service-item">
-                <h3>Automobiles</h3>
-                <p>Starlet explores automotive technology to improve mobility and efficiency. From smart sensors to electric vehicle components, we work to innovate the driving experience.</p>
-            </div>
-        </div>
-    </section>
+  <!-- SERVICES -->
+  <section class="services">
+    <h2>Our Core Areas</h2>
 
-    <!-- About Section -->
-    <section>
-        <h2 class="section-title">About STARLET</h2>
-        <p>Starlet is more than a company – it’s a community of problem-solvers. We bring together young skilled minds to tackle challenges and create solutions for Ghana, Africa, and the world.</p>
-    </section>
+    <div class="service-card">
+      <img src="images/software.jpg" alt="Software Development">
+      <h3>Software Development</h3>
+      <p>
+        We design and develop modern websites, mobile applications, and intelligent
+        software solutions tailored to solve real-world problems. Our focus is on
+        efficiency, creativity, and long-term scalability.
+      </p>
+    </div>
 
-    <!-- Testimonials Section -->
-    <section>
-        <h2 class="section-title">Testimonials</h2>
-        <div class="testimonials">
-            <div class="testimonial-item">
-                <p>“STARLET helped me understand the potential of tech in Africa.”</p>
-                <p><strong>- Amuasi M. Daniel</strong></p>
-            </div>
-            <div class="testimonial-item">
-                <p>“Joining STARLET was the best decision for my tech growth.”</p>
-                <p><strong>- Nyewoayor E. Erica</strong></p>
-            </div>
-            <div class="testimonial-item">
-                <p>“A place where young minds are truly empowered to solve real problems.”</p>
-                <p><strong>- Nikoi A. Dorcas</strong></p>
-            </div>
-        </div>
-    </section>
+    <div class="service-card">
+      <img src="images/electronics.jpg" alt="Electronics">
+      <h3>Electronics & Embedded Systems</h3>
+      <p>
+        Starlet explores innovative electronic designs, smart devices, and embedded
+        systems that improve everyday life. We combine theory with practical
+        implementation to create functional and reliable solutions.
+      </p>
+    </div>
 
-    <!-- Call-to-Action Section -->
-    <section class="cta">
-        <p>Ready to innovate with STARLET? Contact us today!</p>
-        <a href="mailto:Starlettech29@gmail.com">Contact Us</a>
-    </section>
+    <div class="service-card">
+      <img src="images/automobile.jpg" alt="Automobile Technology">
+      <h3>Automobile Technology</h3>
+      <p>
+        We are interested in modern automobile technologies, smart vehicle systems,
+        and future mobility concepts that integrate technology with transportation
+        for safer and more efficient movement.
+      </p>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer>
-        STARLET © 2026 — Bright minds building the future
-    </footer>
+  <!-- ABOUT -->
+  <section class="about">
+    <h2>About Starlet</h2>
+
+    <p>
+      Starlet is an innovation-driven technology initiative founded with the purpose
+      of bringing together bright, curious, and passionate minds to create meaningful
+      solutions for real-world challenges. The idea behind Starlet is built on the
+      belief that young people, when given the right environment and motivation, can
+      drive powerful technological change.
+    </p>
+
+    <p>
+      Our focus spans across software development, electronics, and automobile
+      technology, where we aim to blend creativity with technical excellence.
+      Starlet is not just about building projects; it is about developing skills,
+      encouraging teamwork, and nurturing leadership among young innovators.
+    </p>
+
+    <p>
+      As Starlet continues to grow, our long-term vision is to become a recognized
+      and trusted technology brand that delivers quality, innovative, and impactful
+      solutions. We aspire to contribute positively to Ghana’s technological growth
+      while making an influence across Africa and the global tech space.
+    </p>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <h2>What People Say About Starlet</h2>
+
+    <div class="testimonial-card">
+      <p>
+        “Starlet is an inspiring initiative that brings together young individuals
+        who are genuinely passionate about technology and innovation. The team shows
+        strong commitment, creativity, and a clear vision for building solutions that
+        truly matter.”
+      </p>
+      <h4>— Amuasi M. Daniel</h4>
+    </div>
+
+    <div class="testimonial-card">
+      <p>
+        “Working with the Starlet team has been a refreshing experience. Their
+        approach to problem-solving is practical, thoughtful, and forward-looking.
+        It is clear that Starlet is built on discipline, teamwork, and a desire to
+        make a real impact.”
+      </p>
+      <h4>— Nyewoayor E. Erica</h4>
+    </div>
+
+    <div class="testimonial-card">
+      <p>
+        “Starlet represents the future of innovation led by young minds. Their
+        dedication to learning, collaboration, and excellence is impressive, and I
+        strongly believe this initiative has the potential to grow into a powerful
+        and influential technology brand.”
+      </p>
+      <h4>— Nikoi A. Dorcas</h4>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>If you have any questions, ideas, or want to collaborate, reach out to us:</p>
+    <p>Email: <a href="mailto:Starlettech29@gmail.com">Starlettech29@gmail.com</a></p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 STARLET. All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
