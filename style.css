@@ -1,0 +1,120 @@
+/* GENERAL */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #FFD700; /* Yellow background */
+  color: #000;
+  text-align: center;
+}
+
+/* HEADER */
+.header {
+  padding: 30px 20px;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: #0047AB; /* Blue text */
+}
+
+.tagline {
+  color: #0047AB;
+  font-weight: bold;
+}
+
+/* SERVICES */
+.services {
+  padding: 40px 20px;
+}
+
+.services h2 {
+  color: #0047AB;
+  margin-bottom: 20px;
+}
+
+.service-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.service-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.service-card h3 {
+  color: #0047AB;
+}
+
+/* ABOUT */
+.about {
+  padding: 40px 20px;
+}
+
+.about h2 {
+  color: #0047AB;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+  padding: 40px 20px;
+}
+
+.testimonials h2 {
+  color: #0047AB;
+  margin-bottom: 20px;
+}
+
+.testimonial-card {
+  background: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.testimonial-card p {
+  font-style: italic;
+}
+
+.testimonial-card h4 {
+  margin-top: 10px;
+  color: #0047AB;
+}
+
+/* CONTACT */
+.contact {
+  padding: 40px 20px;
+}
+
+.contact h2 {
+  color: #0047AB;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.contact a {
+  color: #0047AB;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+  background: #0047AB;
+  color: white;
+  padding: 15px;
+}
