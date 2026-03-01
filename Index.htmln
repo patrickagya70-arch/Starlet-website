@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Starlet</title>
+
+<style>
+
+/* ===== BODY ===== */
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle at top, #001f4d, #000814);
+    color:white;
+}
+
+/* ===== HEADER ===== */
+header{
+    text-align:center;
+    padding:80px 20px;
+    background: rgba(0,102,255,0.08);
+    box-shadow:0 0 20px #0066ff;
+}
+
+header h1{
+    font-size:42px;
+    letter-spacing:3px;
+    margin:0;
+}
+
+header p{
+    color:#66b3ff;
+}
+
+/* ===== NAVIGATION ===== */
+nav{
+    text-align:center;
+    padding:15px;
+    background:rgba(0,0,0,0.4);
+}
+
+nav a{
+    color:#66b3ff;
+    margin:15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:white;
+}
+
+/* ===== SECTIONS ===== */
+section{
+    padding:60px 20px;
+    text-align:center;
+}
+
+/* ===== CARDS ===== */
+.card{
+    width:80%;
+    max-width:400px;
+    margin:25px auto;
+    padding:20px;
+    border-radius:12px;
+    background:rgba(0,102,255,0.08);
+    box-shadow:0 0 12px #0066ff;
+}
+
+/* ===== TESTIMONIAL ===== */
+.testimonial{
+    width:70%;
+    margin:20px auto;
+    padding:15px;
+    background:rgba(0,0,0,0.3);
+    border-left:4px solid #3399ff;
+}
+
+/* ===== BUTTON ===== */
+button{
+    padding:10px 20px;
+    background:#0066ff;
+    border:none;
+    color:white;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0044aa;
+}
+
+/* ===== FOOTER ===== */
+footer{
+    text-align:center;
+    padding:25px;
+    background:#000814;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Starlet</h1>
+    <p>Innovative Digital Solutions</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#values">Values</a>
+    <a href="#services">What We Do</a>
+    <a href="#testimonials">Testimonials</a>
+</nav>
+
+<section id="about">
+    <h2>About Starlet</h2>
+
+    <p>
+        Starlet is a forward-thinking technology brand focused on building
+        innovative digital solutions through software, mobile applications,
+        websites and artificial intelligence.
+
+        Our mission is to create meaningful technology that solves real-world
+        problems while promoting learning, discipline and growth.
+    </p>
+
+    <h3>Vision</h3>
+    <p>To become a global technology brand known for innovation and excellence.</p>
+
+    <h3>Mission</h3>
+    <p>To design and develop digital solutions that improve lives.</p>
+</section>
+
+<section id="values">
+    <h2>Our Core Values</h2>
+
+    <ul style="list-style:none;">
+        <li>Hard Work</li>
+        <li>Integrity</li>
+        <li>Passion</li>
+        <li>Resilience</li>
+        <li>Innovation</li>
+        <li>Excellence</li>
+        <li>Teamwork</li>
+        <li>Accountability</li>
+    </ul>
+</section>
+
+<section id="services">
+    <h2>What We Do</h2>
+
+    <div class="card">
+        <h3>Mobile App Development</h3>
+        <p>Building future-ready mobile applications.</p>
+    </div>
+
+    <div class="card">
+        <h3>Website Development</h3>
+        <p>Modern and responsive websites for individuals and businesses.</p>
+    </div>
+
+    <div class="card">
+        <h3>Artificial Intelligence</h3>
+        <p>Exploring smart technology and automation solutions.</p>
+    </div>
+</section>
+
+<section id="testimonials">
+    <h2>Testimonials</h2>
+
+    <div class="testimonial">
+        <p>Starlet is innovative and inspiring.</p>
+        <h4>- Amuasi M. Daniel</h4>
+    </div>
+
+    <div class="testimonial">
+        <p>Strong vision and dedication to technology.</p>
+        <h4>- Nyewoayor E. Erica</h4>
+    </div>
+
+    <div class="testimonial">
+        <p>Starlet has great future potential.</p>
+        <h4>- Nikoi A. Dorcas</h4>
+    </div>
+</section>
+
+<footer>
+    © 2026 Starlet. All Rights Reserved.  
+    <br>
+    Email: Starlettech29@gmail.com
+</footer>
+
+</body>
+</html>
