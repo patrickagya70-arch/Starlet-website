@@ -3,99 +3,124 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Starlet</title>
+<title>Starlet Tech</title>
 
 <style>
 
-/* ===== BODY ===== */
 body{
-    margin:0;
-    font-family: Arial, sans-serif;
-    background: radial-gradient(circle at top, #001f4d, #000814);
-    color:white;
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background: radial-gradient(circle at top, #001133, #000814);
+color:white;
+line-height:1.6;
 }
 
-/* ===== HEADER ===== */
-header{
-    text-align:center;
-    padding:80px 20px;
-    background: rgba(0,102,255,0.08);
-    box-shadow:0 0 20px #0066ff;
-}
+/* Navigation */
 
-header h1{
-    font-size:42px;
-    letter-spacing:3px;
-    margin:0;
-}
-
-header p{
-    color:#66b3ff;
-}
-
-/* ===== NAVIGATION ===== */
 nav{
-    text-align:center;
-    padding:15px;
-    background:rgba(0,0,0,0.4);
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:#000814;
+position:sticky;
+top:0;
+}
+
+nav h1{
+color:#4da6ff;
 }
 
 nav a{
-    color:#66b3ff;
-    margin:15px;
-    text-decoration:none;
-    font-weight:bold;
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-weight:bold;
 }
 
 nav a:hover{
-    color:white;
+color:#4da6ff;
 }
 
-/* ===== SECTIONS ===== */
+/* Hero Section */
+
+.hero{
+text-align:center;
+padding:120px 20px;
+}
+
+.hero h2{
+font-size:48px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:20px;
+color:#9ec9ff;
+}
+
+.hero button{
+margin-top:20px;
+padding:12px 25px;
+background:#0066ff;
+border:none;
+border-radius:5px;
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+.hero button:hover{
+background:#0044aa;
+}
+
+/* Section Style */
+
 section{
-    padding:60px 20px;
-    text-align:center;
+padding:80px 10%;
+text-align:center;
 }
 
-/* ===== CARDS ===== */
+/* Cards */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
 .card{
-    width:80%;
-    max-width:400px;
-    margin:25px auto;
-    padding:20px;
-    border-radius:12px;
-    background:rgba(0,102,255,0.08);
-    box-shadow:0 0 12px #0066ff;
+background:rgba(0,102,255,0.1);
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 10px #0066ff;
 }
 
-/* ===== TESTIMONIAL ===== */
+/* Values */
+
+.values li{
+list-style:none;
+margin:10px 0;
+}
+
+/* Testimonials */
+
 .testimonial{
-    width:70%;
-    margin:20px auto;
-    padding:15px;
-    background:rgba(0,0,0,0.3);
-    border-left:4px solid #3399ff;
+background:rgba(0,0,0,0.3);
+padding:20px;
+border-left:4px solid #3399ff;
+margin:20px auto;
+max-width:600px;
 }
 
-/* ===== BUTTON ===== */
-button{
-    padding:10px 20px;
-    background:#0066ff;
-    border:none;
-    color:white;
-    border-radius:6px;
-    cursor:pointer;
-}
+/* Footer */
 
-button:hover{
-    background:#0044aa;
-}
-
-/* ===== FOOTER ===== */
 footer{
-    text-align:center;
-    padding:25px;
-    background:#000814;
+background:#000814;
+text-align:center;
+padding:30px;
+margin-top:40px;
 }
 
 </style>
@@ -103,94 +128,190 @@ footer{
 
 <body>
 
-<header>
-    <h1>Starlet</h1>
-    <p>Innovative Digital Solutions</p>
-</header>
+<!-- Navigation -->
 
 <nav>
-    <a href="#about">About</a>
-    <a href="#values">Values</a>
-    <a href="#services">What We Do</a>
-    <a href="#testimonials">Testimonials</a>
+<h1>Starlet</h1>
+
+<div>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#values">Values</a>
+<a href="#testimonials">Testimonials</a>
+<a href="#contact">Contact</a>
+</div>
 </nav>
 
+<!-- Hero Section -->
+
+<section class="hero">
+
+<h2>Starlet Tech</h2>
+
+<p>Where bright minds build the future.</p>
+
+<button onclick="document.getElementById('about').scrollIntoView()">
+Learn More
+</button>
+
+</section>
+
+<!-- About -->
+
 <section id="about">
-    <h2>About Starlet</h2>
 
-    <p>
-        Starlet is a forward-thinking technology brand focused on building
-        innovative digital solutions through software, mobile applications,
-        websites and artificial intelligence.
+<h2>About Starlet</h2>
 
-        Our mission is to create meaningful technology that solves real-world
-        problems while promoting learning, discipline and growth.
-    </p>
+<p>
+Starlet is a technology initiative dedicated to building innovative
+digital solutions through software development, mobile applications,
+web platforms and artificial intelligence.
+</p>
 
-    <h3>Vision</h3>
-    <p>To become a global technology brand known for innovation and excellence.</p>
+<p>
+Our mission is to empower individuals and organizations with modern
+technology tools that improve productivity, learning and global
+connection.
+</p>
 
-    <h3>Mission</h3>
-    <p>To design and develop digital solutions that improve lives.</p>
+<p>
+Starlet believes that the future will be built by creative thinkers,
+problem solvers and determined innovators.
+</p>
+
+<h3>Vision</h3>
+
+<p>
+To grow into a global technology company recognized for innovation,
+impact and transformative digital solutions.
+</p>
+
+<h3>Mission</h3>
+
+<p>
+To design technology that solves real-world problems and empowers the
+next generation of creators.
+</p>
+
 </section>
 
-<section id="values">
-    <h2>Our Core Values</h2>
-
-    <ul style="list-style:none;">
-        <li>Hard Work</li>
-        <li>Integrity</li>
-        <li>Passion</li>
-        <li>Resilience</li>
-        <li>Innovation</li>
-        <li>Excellence</li>
-        <li>Teamwork</li>
-        <li>Accountability</li>
-    </ul>
-</section>
+<!-- Services -->
 
 <section id="services">
-    <h2>What We Do</h2>
 
-    <div class="card">
-        <h3>Mobile App Development</h3>
-        <p>Building future-ready mobile applications.</p>
-    </div>
+<h2>What We Do</h2>
 
-    <div class="card">
-        <h3>Website Development</h3>
-        <p>Modern and responsive websites for individuals and businesses.</p>
-    </div>
+<div class="grid">
 
-    <div class="card">
-        <h3>Artificial Intelligence</h3>
-        <p>Exploring smart technology and automation solutions.</p>
-    </div>
+<div class="card">
+<h3>Mobile App Development</h3>
+<p>
+Designing and building mobile applications that make everyday life
+simpler and more productive.
+</p>
+</div>
+
+<div class="card">
+<h3>Website Development</h3>
+<p>
+Creating modern responsive websites for individuals, startups and
+organizations.
+</p>
+</div>
+
+<div class="card">
+<h3>Artificial Intelligence</h3>
+<p>
+Exploring intelligent systems and automation that transform how people
+interact with technology.
+</p>
+</div>
+
+<div class="card">
+<h3>Digital Innovation</h3>
+<p>
+Developing creative solutions and tools that push technology forward.
+</p>
+</div>
+
+</div>
+
 </section>
 
+<!-- Values -->
+
+<section id="values">
+
+<h2>Our Core Values</h2>
+
+<ul class="values">
+
+<li>Hard Work</li>
+<li>Integrity</li>
+<li>Passion</li>
+<li>Resilience</li>
+<li>Innovation</li>
+<li>Excellence</li>
+<li>Curiosity</li>
+<li>Collaboration</li>
+
+</ul>
+
+</section>
+
+<!-- Testimonials -->
+
 <section id="testimonials">
-    <h2>Testimonials</h2>
 
-    <div class="testimonial">
-        <p>Starlet is innovative and inspiring.</p>
-        <h4>- Amuasi M. Daniel</h4>
-    </div>
+<h2>Testimonials</h2>
 
-    <div class="testimonial">
-        <p>Strong vision and dedication to technology.</p>
-        <h4>- Nyewoayor E. Erica</h4>
-    </div>
+<div class="testimonial">
+<p>
+"Starlet represents a new generation of technology thinkers who are
+determined to build meaningful solutions for the future."
+</p>
+<b>— Amuasi M. Daniel</b>
+</div>
 
-    <div class="testimonial">
-        <p>Starlet has great future potential.</p>
-        <h4>- Nikoi A. Dorcas</h4>
-    </div>
+<div class="testimonial">
+<p>
+"The vision behind Starlet is inspiring and shows strong dedication to
+innovation and growth."
+</p>
+<b>— Nyewoayor E. Erica</b>
+</div>
+
+<div class="testimonial">
+<p>
+"Starlet has the potential to grow into a powerful technology brand
+through persistence and creativity."
+</p>
+<b>— Nikoi A. Dorcas</b>
+</div>
+
+</section>
+
+<!-- Contact -->
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p>Email: Starlettech29@gmail.com</p>
+
+<p>
+Interested in collaborating, building projects or learning more about
+Starlet? Reach out and let's build something great together.
+</p>
+
 </section>
 
 <footer>
-    © 2026 Starlet. All Rights Reserved.  
-    <br>
-    Email: Starlettech29@gmail.com
+
+<p>© 2026 Starlet Tech</p>
+
+<p>Where bright minds build the future.</p>
+
 </footer>
 
 </body>
